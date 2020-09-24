@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+<body>
+    <form method="post" action="registrasi.php">
+        <fieldset>
+            <legend>Registrasi</legend>
+                <table>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td>:</td>
+                        <td colspan="2"><input type="text" name="nama" placeholder="nama kamu ..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="user">Username</label></td>
+                        <td>:</td>
+                        <td colspan="2"><input type="text" name="user" id="#" placeholder="username kamu ..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td colspan="2"><input type="email" name="email" id="#" placeholder="email kamu ..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td colspan="2"><input type="password" name="password" id="#" placeholder="password kamu ..."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jk">Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td><label for="jk"><input type="radio" name="jk" id="#" value="Laki-laki">Laki-laki</label></td>
+                        <td><label for="jk"><input type="radio" name="jk" id="#">Perempuan</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="agama">Agama</label></td>
+                        <td>:</td>
+                        <td colspan="2">
+                            <select name="agama" id="#">
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                                <option value="katholik">Katholik</option>
+                                <option value="konghucu">Konghucu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="bio">Biografi</label></td>
+                        <td>:</td>
+                        <td colspan="2"><textarea name="bio" id="" cols="30" rows="10" placeholder="bio kamu ..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" height="100" align="center"><input type="submit" name="submit" id="#" value=" Daftar "></td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+</body>
+</html>

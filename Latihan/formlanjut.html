@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <form action="lanjut.php" method="POST">
+        <fieldset>
+            <legend>Form</legend>
+            <table cellpadding="10">
+                <tr>
+                    <td><label for="web">Alamat Web</label></td>
+                    <td>:</td>
+                    <td><input type="url" name="url" id="#" placeholder="Masukan url web kamu ..."></td>
+                </tr>
+                <tr>
+                    <td><label for="tanggal">Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal" id="#"></td>
+                </tr>
+                <tr>
+                    <td><label for="umur">Umur</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="umur" id="#" min="10" max="90"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" id="#" value=" Send "></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
