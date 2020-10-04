@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Akun</title>
     <style>
+        h3{
+            padding: 15px 150px;
+            background-color: rgb(44, 124, 204);
+            border: 2px solid burlywood;
+            border-radius: 10px; 
+            display: inline-block;
+        }  
         body{
-            background-color:magenta;
             background-image: url('Desert.jpg');
-            background-repeat: repeat-x;
+            background-repeat: no_repeat;
+            background-size: cover;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
         table{
-            background-color: yellowgreen;
+            padding: 25px 25px;
+            background-color: slategray;
+            border: 2px solid burlywood;
+            border-radius: 25px;
+            border-radius: 10px;
         }    
         
     </style>
 </head>
 <body>
-    <header>
+    <center><header>
         <h3>Register Page</h3>
     </header>
     <form action="reg.html" method="POST">
-        <fieldset>
-            <legend>Please Register First !</legend>
             <table>
                 <tr>
                     <td><label for="nama">Nama</label></td>
@@ -45,12 +55,12 @@
                 <tr>
                     <td><label for="username">Username</label></td>
                     <td>:</td>
-                    <td><input type="text" name="username" id="#"></td>
+                    <td><input type="text" name="username" id="#" placeholder="username kamu..."></td>
                 </tr>
                 <tr>
                     <td><label for="password">Password</label></td>
                     <td>:</td>
-                    <td><input type="password" name="password"></td>
+                    <td><input type="password" name="password" placeholder="password kamu..."></td>
                 </tr>
                 <tr>
                     <td><label for="hobi">Hobi</label></td>
@@ -62,10 +72,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="submit" name="register" id="#" value="Register!!!"></td>
+                    <td colspan="3" height="100" align="center"><input type="submit" name="register" id="#" value="Register!!!"></td>
                 </tr>
-            </table>              
-        </fieldset>
+            </table></center>              
     </form>
 </body>
 </html>
