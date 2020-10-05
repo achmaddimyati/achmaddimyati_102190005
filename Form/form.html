@@ -9,9 +9,9 @@
             padding: 15px 150px;
             background-color: rgb(44, 124, 204);
             border: 2px solid burlywood;
-            border-radius: 10px; 
+            border-radius: 10px;
             display: inline-block;
-        }  
+        }
         body{
             background-image: url('Desert.jpg');
             background-repeat: no_repeat;
@@ -24,15 +24,15 @@
             border: 2px solid burlywood;
             border-radius: 25px;
             border-radius: 10px;
-        }    
-        
+        }
+
     </style>
 </head>
 <body>
     <center><header>
         <h3>Register Page</h3>
     </header>
-    <form action="reg.html" method="POST">
+    <form action="reg.php" method="POST">
             <table>
                 <tr>
                     <td><label for="nama">Nama</label></td>
@@ -66,15 +66,15 @@
                     <td><label for="hobi">Hobi</label></td>
                     <td>:</td>
                     <td>
-                        <input type="checkbox" value="Menulis">Menulis<br>
-                        <input type="checkbox" value="Menggambar">Menggambar<br>
-                        <input type="checkbox" value="Membaca">Membaca<br>
+                        <input type="checkbox" name="hobi[]" value="Menulis">Menulis<br>
+                        <input type="checkbox" name="hobi[]" value="Menggambar">Menggambar<br>
+                        <input type="checkbox" name="hobi[]" value="Membaca">Membaca<br>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="3" height="100" align="center"><input type="submit" name="register" id="#" value="Register!!!"></td>
                 </tr>
-            </table></center>              
+            </table></center>
     </form>
 </body>
 </html>
