@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-image:url('../assets/background/background.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+ul#top-navbar{
+    position: fixed;
+    width: 100%;
+    background-color: green;
+    height: 70px;
+    background-attachment: fixed;
+    
+}
+
+li.left{
+    margin: 10px 5px;
+    padding: 15px;
+    display: inline;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+
+li.left:hover{
+    background-color:yellow;
+}
+
+li.left:active{
+    background-color:burlywood;
+}
+
+
+input.nav-search, input.nav-search-btn{
+    
+    border: 5px 5px;
+    margin: 20px 5px;
+    float: right;
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    color:black;
+}
+
+.left-bar{
+    width: 200px;
+    margin-left: 25px;
+    padding: 25px;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:green;
+    float: left;
+
+}
+
+.main-artikel{
+    width: 650px;
+    margin-left: 25px;
+    padding: 25px;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:green;
+    float: left;
+}
+
+img{
+    margin: 20px;
+    float: left;
+    height: 120px;
+    width: 120px;
+
+}
+
+p{
+    margin: 10px 10px;
+}
+
+.garis-putus{
+    border-bottom:1px dashed;
+    margin-bottom: 50px;
+}
+
+.garis-putus2{
+    border-bottom:1px dashed;
+}
+
+.right-bar{
+    width: 250px;
+    margin-left: 25px;
+    padding: 20px;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:green;
+    float: left;
+
+}
+
+ul.details{
+    padding-left: 25px;
+}
+
+.right-bar2{
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 20px;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:green;
+    float: left;
+
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    background-color: green;
+    height: 60px;
+    background-attachment: fixed;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+    font-stretch: expanded;
+    padding-top: 25px;
+}
+
+h1:hover{
+    color: whitesmoke;
+}
+
+h2:hover{
+    color: yellow;
+}
+
+h3:hover{
+    color:greenyellow
+}
+
