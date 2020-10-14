@@ -2,29 +2,28 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     position: relative;
     background-image:url('../assets/background/background.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-    
+    background-size:cover;  
 }
 
 ul#top-navbar{
     position: fixed;
     width: 100%;
     background-color: green;
-    height: 70px;
-    background-attachment: fixed;
+    height: 12%;
     
 }
 
 li.left{
-    margin: 10px 5px;
-    padding: 15px;
-    display: inline;
+    margin: 1% 1%;
+    padding: 1%;
+    font-size:1em;
     float: left;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -50,15 +49,16 @@ li.left:active{
 
 input.nav-search, input.nav-search-btn{
     
-    border: 5px 5px;
-    margin: 20px 5px;
+    border: 1% 1%;
+    margin: 1% 1%;
+    padding-left:0.5%;
     float: right;
-    height: 30px;
+    height: 50%;
 }
 
 h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 8%;
     font-weight: bold;
     font-size: 50px;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif
@@ -75,9 +75,9 @@ h3{
 }
 
 .left-bar{
-    width: 200px;
-    margin-left: 25px;
-    padding: 25px;
+    width: 15%;
+    margin-left: 4%;
+    padding: 2%;
     text-align: justify;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -87,14 +87,14 @@ h3{
 }
 
 .main-artikel{
-    width: 650px;
-    margin-left: 25px;
-    padding: 25px;
+    width: 45%;
+    margin-left: 2%;
+    padding: 2%;
     text-align: justify;
+    float: left;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:green;
-    float: left;
 }
 
 img{
@@ -119,9 +119,9 @@ p{
 }
 
 .right-bar{
-    width: 250px;
-    margin-left: 25px;
-    padding: 20px;
+    width: 15%;
+    margin-left: 2%;
+    padding: 2%;
     text-align: justify;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -135,7 +135,7 @@ ul.details{
 }
 
 .right-bar2{
-    width: 250px;
+    width: 15%;
     margin-left: 25px;
     margin-top: 25px;
     padding: 20px;
@@ -150,8 +150,9 @@ ul.details{
 footer{
     clear: both;
     width: 100%;
+    margin-bottom: auto;
     background-color: green;
-    height: 60px;
+    height: 70px;
     background-attachment: fixed;
 }
 
