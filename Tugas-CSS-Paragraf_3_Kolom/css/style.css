@@ -15,10 +15,13 @@ body{
 ul#top-navbar{
     position: fixed;
     width: 100%;
-    background-color: green;
+    background: linear-gradient(to top,green,mediumseagreen);
     height: 12%;
+    border-bottom: 2px solid wheat;
+    
     
 }
+
 
 li.left{
     margin: 1% 1%;
@@ -52,6 +55,7 @@ input.nav-search, input.nav-search-btn{
     border: 1% 1%;
     margin: 1% 1%;
     padding-left:0.5%;
+    padding-right: 1px ;
     float: right;
     height: 50%;
 }
@@ -61,7 +65,8 @@ h1{
     padding-top: 8%;
     font-weight: bold;
     font-size: 50px;
-    font-family: Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
 }
 
 h2{
@@ -74,35 +79,51 @@ h3{
     color:black;
 }
 
+section#left, section#right{
+    width: 25%;
+    float: left;
+    background-color:transparent;
+}
+
 .left-bar{
-    width: 15%;
-    margin-left: 4%;
-    padding: 2%;
+    margin-left: 15%;
+    padding: 6%;
+    background-color: green;
     text-align: justify;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:green;
-    float: left;
+}
 
+.left-bar-2{
+    margin-top: 10%;
+    margin-left: 15%;
+    padding: 6%;
+    background-color: green;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#main{
+    width: 45%;
+    float: left;
+    background-color:transparent;
 }
 
 .main-artikel{
-    width: 45%;
-    margin-left: 2%;
-    padding: 2%;
+    margin-left: 5%;
+    padding: 6%;
     text-align: justify;
-    float: left;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:green;
+    background-color: green;
 }
 
-img{
+img.artikel{
     margin: 20px;
     float: left;
     height: 120px;
     width: 120px;
-
 }
 
 p{
@@ -118,33 +139,33 @@ p{
     border-bottom:1px dashed;
 }
 
+{
+    width: 20%;
+    float: left;
+    background-color: transparent;
+}
+
 .right-bar{
-    width: 15%;
-    margin-left: 2%;
-    padding: 2%;
+    margin-left: 10%;
+    padding: 6%;
+    background-color: green;
     text-align: justify;
     color: blanchedalmond;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:green;
-    float: left;
+}
 
+.right-bar2{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 6%;
+    background-color: green;
+    text-align: justify;
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul.details{
     padding-left: 25px;
-}
-
-.right-bar2{
-    width: 15%;
-    margin-left: 25px;
-    margin-top: 25px;
-    padding: 20px;
-    text-align: justify;
-    color: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:green;
-    float: left;
-
 }
 
 footer{

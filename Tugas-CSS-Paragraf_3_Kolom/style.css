@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family:'times-new-roman';
+}
+body{
+    height: 100vh;
+    background-image: url(assets/background/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: rgba(11, 29, 9, 0.253);
+    box-shadow: 0 0 10px rgba(99, 102, 97, 0.3);
+}
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fafafa;
+    margin-bottom: 30px;
+}
+.container label{
+    text-align: left;
+    color: white
+}
+.container form input.ketik{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-color: lime;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 2px solid green;
+    color: #fff;
+    font-size: 20px;
+}
+.container form button.in{
+    width: 40%;
+    padding: 5px 0;
+    border: none;
+    display: inline;
+    background-color:green;
+    font-size: 18px;
+    color: #fafafa;
+    box-shadow: wheat;
+    float: right;
+}
+
+.container form p{
+    text-indent: 10px;
+    clear: both;
+    color: white;
+}
+
+.container-judul{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    color : rgba(3, 58, 15, 0.897);
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    font-size: 60px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 700px;
+    
+}
+
+.container-judul :hover{
+    color: green;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+td{
+    color: white;
+    padding-left: 5px;
+}
