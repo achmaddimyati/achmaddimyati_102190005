@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="alert('selamat datang di Trans *** !!!')">
+
+    <div class="wadah">
+        <table>
+            <tr>
+                <img onclick="berubah()" src="trans.png" alt="js" width="400" id="gambar">
+            </tr>
+            <tr>
+                <input type="text" placeholder="ketikkan pencarian" id="input" >
+            </tr>
+        </table>
+        
+    </div>  
+    
+    <script>
+        var img = document.getElementById("gambar");
+        img.width="200";
+
+        img.className +="merah";
+
+        input.style.border='3px solid black';
+
+        function berubah(){
+            img.style.backgroundColor="green";
+        }
+
+        function berubah2(){
+            input.style.backgroundColor="blue";
+        }
+
+        input.addEventListener('mouseenter',function(){
+            input.style.backgroundColor="yellow";
+        });
+
+        input.addEventListener('mouseleave',function(){
+            input.style.backgroundColor="green";
+        });
+    </script>
+</body>
+</html>

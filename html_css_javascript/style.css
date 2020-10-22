@@ -1,0 +1,29 @@
+body{
+    background-color: chocolate;
+}
+.wadah{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgba(11, 29, 9, 0.253);
+    box-shadow: 0 0 10px rgba(99, 102, 97, 0.3);
+
+}
+
+#input{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.merah{
+    align-items: center;
+    background-color: red;
+}
+
+.black{
+    border: 2px solid black;
+}
